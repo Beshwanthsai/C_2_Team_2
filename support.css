@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  header {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+  }
+  .logo {
+    height: 17vh;
+    width: 12%;
+    
+    display: flex;
+
+  }
+  .logo img {
+    width: 100%;
+  }
+  .nav {
+    height: 17vh;
+    width: 90%;
+    background-color:rgb(206, 203, 203);
+    
+   
+    
+  }
+  .nav ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 40px;
+    
+    
+    
+   
+  }
+  .nav a {
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   
+  }
+    
+  
