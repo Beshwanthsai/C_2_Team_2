@@ -22,11 +22,8 @@
   .nav {
     height: 17vh;
     width: 90%;
-    background-color:rgb(206, 203, 203);
-    
-   
-    
-  }
+    background-color:#80c6d8;
+   }
   .nav ul {
     align-items: center;
     display: flex;
@@ -47,5 +44,6 @@
 main {
 padding: 10px;
 }
-    
-  
+h2{
+  height: 10vh;
+}
