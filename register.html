@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
 </head>
 <body>
   <header>
@@ -18,28 +18,29 @@
         <li><a href="about.html">About Us</a></li>
         <li><a href="login.html">Login</a></li>
         <li><a href="register.html">Register</a></li>
-         <li><a href="cart.html">Cart</a></li>
-
+                <li><a href="cart.html">Cart</a></li>
       </ul>
     </div>  
   </header>
 
   <main>
-    <section class="login">
-      <div class="login-container">
+    <section class="register">
+      <div class="register-container">
         <div class="image-container">
-          <img src="images/picture.jpg" alt="Login Image">
+          <img src="images/picture.jpg" alt="Register Image">
         </div>
         <div class="form-container">
-          <h2>Login</h2>
-          <form action="authenticate.php" method="post">
+          <h2>Register</h2>
+          <form action="registerUser.php" method="post">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            <button type="submit">Login</button>
+            <button type="submit">Register</button>
           </form>
-          <p>Don't have an account? <a href="register.html">Register here</a></p>
+          <p>Already have an account? <a href="login.html">Login here</a></p>
         </div>
       </div>
     </section>

@@ -1,105 +1,88 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
+
 header {
-  height: 15vh;
+  position: absolute;
+  top: 0;
   width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
   display: flex;
-}
-.logo {
-  height: 17vh;
-  width: 12%;
-  display: flex;
-
-}
-.logo img {
-  width: 100%;
-}
-.nav {
-  height: 17vh;
-  width: 90%;
-  background-color:#80c6d8;
-  
- 
-  
-}
-.nav ul {
+  justify-content: space-between;
   align-items: center;
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  padding: 40px;
-  
-  
-  
- 
 }
-.nav a {
- text-decoration: none;
- color: black;
- font-size: 20px;
- 
- }
 
+header .logo img {
+  width: 100px;
+  margin-left: 20px;
+}
 
-  .product-details {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0%;
-    justify-content: space-between;
-    padding: 100px;
-    background-color: #7e8083;
-  }
-  
-  .product-image {
-    width: 50%; 
-    padding: 10px;
-    text-align: center; 
-  }
-  
+header .nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
-  
-  .product-image img {
-    width: 60%; 
-    height: 80%;
-    display: block;
-  }
-  
- 
-  .product-info {
-    width: 50%;
-    padding: 10px;
-    text-align: center; 
-  }
-  .product-info img {
-    width: 60%; 
-    height: 80%; 
-    display: block;
-    
-  }
- 
-  
-  .product-info h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  footer {
-    background-color: #3c3c44dc;
-    text-align: center;
-    padding: 10px;
-  }
-  
+header .nav ul li {
+  margin-right: 20px;
+}
+
+header .nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header .nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#cart {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.cart-item {
+  margin-bottom: 20px;
+}
+
+.cart-total {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #021e3b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding:10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
