@@ -76,13 +76,4 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding:10px 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 
