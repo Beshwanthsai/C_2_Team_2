@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
+<header>
     <div class="logo">
         <img src="images/logo.jpg" alt="logo">
     </div>
@@ -24,54 +27,154 @@
     </div>
 </header>
 <main>
-  <div class="product-grid">  
-    <div class="card">  
-      <img alt="Product 1" src="images/mac1.png">  
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>  
-      <button><a href="cart.html">Add to Cart</a></button>  
-    </div>  
-    <div class="card">  
-      <img alt="Product 2" src="images/mac2.png">   
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>  
-      <button><a href="cart.html">Add to Cart</a></button>  
-    </div>  
-    <div class="card">  
-      <img alt="Product 3" src="images/mac3.png">  
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>  
-      <button><a href="cart.html">Add to Cart</a></button>  
-    </div>  
-    <div class="card">  
-      <img alt="Product 4" src="images/mac4.png">  
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>  
-      <button><a href="cart.html">Add to Cart</a></button>  
-    </div>  
-    <div class="card">  
-      <img alt="Product 5" src="images/laptop.png">  
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>  
-      <button><a href="cart.html">Add to Cart</a></button>  
-    </div>  
-    <div class="card">  
-      <img alt="Product 6" src="images/mac5.jpg">  
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>  
-      <button><a href="cart.html">Add to Cart</a></button>  
-    </div> 
-    <div class="card">  
-      <img alt="Product 6" src="images/mac6.jpeg">  
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>  
-      <button><a href="cart.html">Add to Cart</a></button>  
-    </div> 
-    <div class="card">  
-      <img alt="Product 6" src="images/mac7.jpeg">  
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>  
-      <button><a href="cart.html">Add to Cart</a></button>  
-    </div> 
-  </div>  
-</main>
- 
-<footer>
-  <p>&copy; Laptop shopzz</p>
-</footer>
+    <div class="product-grid">
+        <div class="card">
+            <img alt="Product 1" src="images/mac1.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button><a href="cart.html">Add to Cart</a></button>
+            <br>
+            <br>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1" style="width: auto">
+                   product specifications
+                </button>
+            </p>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                    <div class="card card-body" style="width: 300px;">
+                        This is a macbook   </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Product 2" src="images/mac2.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button><a href="cart.html">Add to Cart</a></button>
+            <br>
+            <br>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
+                    product specifications
+                </button>
+            </p>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                    <div class="card card-body" style="width: 300px;">
+                        This is a macbook  </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Product 3" src="images/mac3.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button><a href="cart.html">Add to Cart</a></button>
+            <br>
+            <br>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
+                    product specifications
+                </button>
+            </p>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                    <div class="card card-body" style="width: 300px;">
+                        This is a macbook  </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Product 4" src="images/mac4.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button><a href="cart.html">Add to Cart</a></button>
+            <br>
+            <br>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample4" aria-expanded="false" aria-controls="collapseWidthExample4">
+                    product specifications
+                </button>
+            </p>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample4">
+                    <div class="card card-body" style="width: 300px;">
+                        This is a macbook     </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Product 5" src="images/laptop.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button><a href="cart.html">Add to Cart</a></button>
+            <br>
+            <br>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample5" aria-expanded="false" aria-controls="collapseWidthExample5">
+                    product specifications
+                </button>
+            </p>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample5">
+                    <div class="card card-body" style="width: 300px;">
+                        This is a macbook  </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Product 6" src="images/mac5.jpg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button><a href="cart.html">Add to Cart</a></button>
+            <br>
+            <br>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample6" aria-expanded="false" aria-controls="collapseWidthExample6">
+                    product specifications
+                </button>
+            </p>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample6">
+                    <div class="card card-body" style="width: 300px;">
+                        This is a macbook  </div>
+                </div>
+            </div>
+        </div>
 
-  </body>
-  </html>
-             
+        <div class="card">
+            <img alt="Product 7" src="images/mac6.jpeg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button><a href="cart.html">Add to Cart</a></button>
+            <br>
+            <br>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample7" aria-expanded="false" aria-controls="collapseWidthExample7">
+                    product specifications
+                </button>
+            </p>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample7">
+                    <div class="card card-body" style="width: 300px;">
+                        This is a macbook   </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Product 8" src="images/mac7.jpeg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button><a href="cart.html">Add to Cart</a></button>
+            <br>
+            <br>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample8" aria-expanded="false" aria-controls="collapseWidthExample8">
+                    product specifications
+                </button>
+            </p>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample8">
+                    <div class="card card-body" style="width: 300px;">
+                        This is a macbook   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
