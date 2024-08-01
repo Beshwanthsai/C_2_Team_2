@@ -99,11 +99,11 @@ main {
 }  
 footer {
   background-color: #333;
-  color: white;
+  color: rgb(58,41,197);
 
   text-align: center;
   position:absolute;
-  bottom:0;
+  bottom:-300px;
   width: 100%;
   
 }
